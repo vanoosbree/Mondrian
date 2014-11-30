@@ -1,0 +1,129 @@
+#canvas {
+    border-collapse:collapse;
+    border:0px;
+}
+
+#row1 {
+    height:100px;
+    background-color:white;
+    border: 10px solid black;
+    border-left:0;
+    border-top:0;
+    border-right:0px;
+}
+
+
+td {
+    border:10px solid black;
+    border-top:0px;
+}
+
+#upperLeft {
+    width:50px;
+    height:100px;
+    background-color:gold;
+    padding:0px;
+    border-left:0px;
+    border-collapse:collapse;
+}
+
+#upperRight {
+    width:15px;
+    border-right:0px;
+
+}
+
+#row2 {
+    height:50px;
+    background-color:white;
+    border: 10px solid black;
+    border-left:0px;
+    border-top:0px;
+    border-right:0px;
+            
+}
+
+#row3 {
+    height:40px;
+    background-color:white;
+    border: 10px solid black;
+    border-left:0px;
+    border-top:0px;
+    border-right:0px;
+            
+}
+
+#row4 {
+    height:60px;
+    background-color:white;
+    border: 10px solid black;
+    border-left:0px;
+    border-top:0px;
+    border-right:0px;
+            
+}
+
+#row5 {
+    height:150px;
+    background-color:white;   
+}
+
+#row5 td {
+    border-bottom:0px;
+    padding:0px;
+}
+
+#blue1 {
+    height:20px;
+    width:52px;
+    background-color:DodgerBlue;
+    margin-top:30px;
+}
+
+#blue2 {
+    height:20px;
+    width:27px;
+    background-color:DodgerBlue;
+    margin-top:30px;
+}
+
+#blue3 {
+    height:20px;
+    width:17px;
+    background-color:DodgerBlue;
+    margin-top:30px;
+}
+
+#red1 {
+    height:52px;
+    width:52px;
+    background-color:red;
+    margin-top:-33px;
+}
+
+.blackTop {
+    height:10px;
+    background-color:black;
+}
+
+#whiteBox {
+    height:40px;
+    color:white;
+}
+
+.blackBottom {
+    height:10px;
+    background-color:black;
+    margin-top:40px;
+}
+
+#red2 {
+    height:20px;
+    width:17px;
+    background-color:red;
+    margin-top:30px;
+}
+
+
+
+

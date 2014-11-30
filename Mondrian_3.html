@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mondrian 3</title>
+	<link rel="icon" href="http://assets1.bigthink.com/system/idea_thumbnails/45543/headline/Mondrian%20grid.jpg?1343912136" />
+	<style type="text/css">
+		body {
+			margin: 0;
+		}
+		.container {
+			height: 450px;
+			width: 600px;
+		}
+		.first-row {
+			height: 110px;
+			background: linear-gradient(to right,
+				white 6%, black 6%,
+				black 8%, yellow 8%,
+				yellow 20%, black 20%,
+				black 22%, red 22%,
+				red 50%, black 50%,
+				black 52%, blue 52%,
+				blue 80%, black 80%,
+				black 82%, yellow 82%,
+				yellow 92%, black 92%,
+				black 94%, white 94%);
+		}
+		.second-row {
+			height: 140px;
+			background: linear-gradient(to right,
+				white 6%, black 6%,
+				black 8%, white 8%,
+				white 20%, black 20%,
+				black 22%, white 22%,
+				white 50%, black 50%,
+				black 52%, white 52%,
+				white 60%, black 60%,
+				black 62%, red 62%,
+				red 80%, black 80%,
+				black 82%, blue 82%,
+				blue 92%, black 92%,
+				black 94%, white 94%);
+		}
+		.third-row {
+			height: 90px;
+			background: linear-gradient(to right,
+				white 6%, black 6%,
+				black 8%, white 8%,
+				white 20%, black 20%,
+				black 22%, blue 22%,
+				blue 60%, black 60%,
+				black 62%, white 62%,
+				white 80%, black 80%,
+				black 82%, yellow 82%,
+				yellow 92%, black 92%,
+				black 94%, white 94%);
+		}
+		.fourth-row {
+			height: 90px;
+			background: linear-gradient(to right,
+				white 6%, black 6%,
+				black 8%, red 8%,
+				red 20%, black 20%,
+				black 22%, yellow 22%,
+				yellow 60%, black 60%,
+				black 62%, white 62%,
+				white 92%, black 92%,
+				black 94%, white 94%);
+		}
+		.bottom-border {
+			width: auto;
+			height: 10px;
+			background-color: black;
+		}
+		.bottom-border:nth-child(4) {
+			width: 93.8%;
+		}
+		.bottom-border:nth-child(6) {
+			width: 94.1%;
+			float: right;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="first-row"></div>
+		<div class="bottom-border"></div>
+		<div class="second-row"></div>
+		<div class="bottom-border"></div>
+		<div class="third-row"></div>
+		<div class="bottom-border"></div>
+		<div class="fourth-row"></div>
+	</div>
+</body>
+</html>
